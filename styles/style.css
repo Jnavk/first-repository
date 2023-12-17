@@ -1,0 +1,53 @@
+html {
+    font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(168, 139, 100);
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(235, 210, 180);
+    padding: 0px 20px, 20px 20px;
+    border: 5px solid black;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding: 0px 0px 0px 7px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #c09c6ad5;
+    text-shadow: 3px 3px 1px black;
+  }
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+    border-radius: 8px;
+  }
+
+.characters:hover, /*Pseudo-classes*/
+.roles:hover {
+    color: rgb(145, 87, 40);
+}
+
+li { /*adjusting the boxes in order to improve the pseudo-class "hover" effect*/
+    width: fit-content;
+}
+
+button {
+    margin: 15px 15px 15px 15px;
+}
